@@ -77,6 +77,9 @@ dependencies {
     testImplementation(libs.androidx.room.testing)
     implementation(libs.androidx.room.paging)
 
+    // datastore
+    implementation(libs.androidx.datastore.preferences)
+
     // dagger & hilt
     ksp(libs.hilt.compiler)
     implementation(libs.dagger.compiler)
