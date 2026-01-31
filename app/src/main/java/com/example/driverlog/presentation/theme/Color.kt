@@ -1,4 +1,4 @@
-package com.example.driverlog.ui.theme
+package com.example.driverlog.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
