@@ -17,7 +17,7 @@ data class Transaction(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val type: TransactionType,
-    val category: String,
+    val category: ExpenseCategory,
     val amount: Double,
     val description: String,
     val date: Long,
